@@ -12,6 +12,7 @@ import { FooterComponent } from './bars/footer/footer.component';
 import {RouterOutlet} from "@angular/router";
 import { AppRoutingModule } from './app-routing.module';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     MatIconModule,
     RouterOutlet,
     AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

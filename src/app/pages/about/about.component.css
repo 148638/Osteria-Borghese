@@ -1,0 +1,11 @@
+iframe {
+  width: 100%;
+}
+
+/* On Mobile: 100% width, on pc: 75% width & 15% translate*/
+@media (min-width: 768px) {
+  #contact-area {
+    width: 75%;
+    transform: translateX(15%);
+  }
+}

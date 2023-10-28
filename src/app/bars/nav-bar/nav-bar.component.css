@@ -1,0 +1,20 @@
+.nav-link {
+  /* Default styles for links */
+  color: #000; /* Black */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+  border-bottom: 2px solid transparent; /* Add transparent border to all links */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #ff4500; /* Orange color on hover/focus */
+}
+
+.active-link,
+.nav-link.active {
+  /* Active state styles, taken from the home link styles */
+  color: #ff4500; /* Orange */
+  border-bottom: 2px solid #ff4500;
+}
