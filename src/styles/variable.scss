@@ -1,5 +1,7 @@
-$primary-color: #FF5733;
-$secondary-color: #FF3333;
-$light-color: #FFFFFF;
-$dark-color: #333333;
-$grey-color: #888888;
+:root {
+  --custom-primary-color: #FF5733;
+  --custom-secondary-color: #FF3333;
+  --custom-light-color: #FFFFFF;
+  --custom-dark-color: #333333;
+  --custom-grey-color: #888888;
+}
