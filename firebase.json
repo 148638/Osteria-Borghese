@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "Osteria-Borghese",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

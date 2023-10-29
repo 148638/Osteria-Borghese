@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "osteria-borghese": {
+      "hosting": {
+        "Osteria-Borghese": [
+          "osteria-borghese"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "osteria-borghese"
+  }
+}

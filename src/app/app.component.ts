@@ -1,5 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { initFlowbite } from 'flowbite';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +8,12 @@ import { initFlowbite } from 'flowbite';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
+  notAdminRoute: boolean = true;
 
-  ngOnInit():void {
+  constructor(readonly router: Router) {}
+
+  ngOnInit(): void {
     initFlowbite();
   }
+
 }
