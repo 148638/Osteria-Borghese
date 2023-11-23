@@ -40,11 +40,11 @@ import {environment} from "../environments/environment";
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideFirebaseApp(() => initializeApp(environment.firebaseEnv)),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
   ],
-  providers: [{provide: FIREBASE_OPTIONS, useValue: environment.firebase}],
+  providers: [{provide: FIREBASE_OPTIONS, useValue: environment.firebaseEnv}],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
